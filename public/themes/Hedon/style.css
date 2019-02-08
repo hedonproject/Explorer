@@ -1,0 +1,287 @@
+body {
+  padding: 80px 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ /* background-image: url('/images/background2.png');*/
+}
+
+
+.view_tx {
+	text-align: center;
+}
+
+.block-last {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.block-next {
+	margin: 0;
+	margin-left: 10px;
+}
+#chart3 .jqplot-xaxis {
+	display: none;
+}
+
+.data {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.txid {
+	width: 100%;
+	display:block;
+	overflow: hidden;
+}
+
+.panel-address-summary {
+ margin-bottom: 5px;
+}
+
+table {
+	width: 100% !important;
+}
+.dataTables_info, .dataTables_length {
+	padding-left: 10px;
+}
+
+.dataTables_info {
+	display: hidden !important;
+}
+
+.dataTables_length {
+	padding-top: 10px;
+}
+
+.dataTables_paginate {
+	padding-right: 5px;
+}
+
+.tab-pane {
+	margin-top: 5px;
+}
+
+table a:not(.btn),.table a:not(.btn){
+	text-decoration:none
+}
+
+tr {
+	width: 100%;
+}
+
+.footer-padding {
+	height: 50px;
+	width: 100%;
+}
+
+.summary-table {
+	margin: 0px !important;
+}
+
+#loading-icon {
+	width: 30px;
+    margin: 10px 10px;
+}
+
+.menu-text {
+	margin-left:5px;
+}
+
+#twitter-icon {
+	font-size: 20px;
+}
+
+#lblBlockcount {
+	margin-right: 10px;
+}
+
+#twitter-icon img{
+	width: 40px;
+	margin: 5px 5px;
+}
+
+#market_menu {
+	margin-bottom: 5px;
+}
+
+.label a:link {
+	color: #ffffff;
+}
+
+.label a:visited {
+	color: #ffffff;
+}
+
+.label a:hover {
+	color: #ffffff;
+}
+
+.label a:active {
+	color: #ffffff;
+}
+
+@media(max-width:767px){
+	body {
+		padding: 0px;
+		padding-top:60px;
+	}
+}
+
+@media(max-width:1096px){
+	.nav-search input {
+	    width: 300px !important;
+    }
+}
+
+@media(max-width:865px){
+	.nav-search input {
+	    width: 150px !important;
+    }
+}
+.qrcode {
+	position: absolute;
+	top: 65px;
+	right: 15px;
+}
+
+.footer-logo {
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+
+
+/* LUMOCASH STYLE */
+
+/* NAVBAR */
+.navbar-default {
+    background-color: #3490c2;
+    border:none;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    color: #3490c2;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+	background-color: #fff;
+ 	color: #3490c2;
+ 	transition: 0.3s ease-in-out;
+}
+.navbar-default .navbar-link, .navbar-default .navbar-link:hover, .navbar-default .navbar-link:focus {
+    color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #3490c2;
+}
+
+
+/* PANELS */
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #3490c2;
+    border:none;
+}
+
+
+
+/* BUTTONS */
+
+.btn-success {
+    color: #fff;
+    background-color: #3490c2;
+    border-color: #3490c2;
+    padding: 6px 50px;
+}
+.btn-success:hover, .btn-success:focus {
+    color: #3490c2;
+    background-color: #fff;
+    border-color: #3490c2;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* PAGINATION */
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #3490c2;
+    border-color: #3490c2;
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+/* LABELS */
+
+.connections {
+	position: absolute;
+	bottom: 18px;
+	right: 15px;
+}
+
+.connections .label-default {
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* PILLS */
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #3490c2;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px;
+    color: #3490c2;
+}
+
+.tabpanel
+{
+	margin-top: 5px;
+}
+
+.white
+{
+	color: #fff !important;
+}
+
+.lumo
+{
+	color: #3490c2 !important;
+}
